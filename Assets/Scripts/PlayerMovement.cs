@@ -10,8 +10,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float jumpSpeed = 16f;
     [SerializeField] float climbSpeed = 10f;
     [SerializeField] Vector2 deathKick = new Vector2 (20f, 20f);
-    [SerializeField] GameObject bullet;
-    [SerializeField] Transform gun;
+    // [SerializeField] GameObject bullet;
+    // [SerializeField] Transform gun;
     Vector2 moveInput;
     Rigidbody2D myRigidbody;
     Animator myAnimator;
@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
     BoxCollider2D myFeetCollider;
 
     bool isAlive = true;
+
+    public bool isLookingRight = true;
 
     float gravityScaleAtStart;
 
@@ -35,16 +37,17 @@ public class PlayerMovement : MonoBehaviour
     {
         if(!isAlive) {return;}
         Run();
-        FlipSprite();
+        // FlipSprite();
         ClimbLadder();
         Die();
     }
 
-    void OnFire(InputValue value)
-    {
-        if(!isAlive) {return;}
-        Instantiate(bullet, gun.position, transform.rotation);
-    }
+    // void OnFire(InputValue value)
+    // {
+    //     if(!isAlive) {return;}
+        // Instantiate(bullet, gun.position, transform.rotation);
+        
+    // }
 
     void OnJump(InputValue value)
     {
@@ -79,11 +82,13 @@ public class PlayerMovement : MonoBehaviour
 
     void FlipSprite()
     {
+
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
 
         if(playerHasHorizontalSpeed)
         {
-            transform.localScale = new Vector2 (Mathf.Sign(myRigidbody.velocity.x), 1f);
+            transform.Rotate(0f, 180f, 0f);
+            // transform.localScale = new Vector2 (Mathf.Sign(myRigidbody.velocity.x), 1f);
         }
         
     }

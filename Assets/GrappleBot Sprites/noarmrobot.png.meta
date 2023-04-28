@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b370c2a21e1c28148aa24619fd750e5a
+guid: 8da0f70e43d30f5489454324a4d67cee
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,8 +69,8 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
+    textureFormat: 4
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,7 +141,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: robotpng_0
+      name: noarmrobot_0
       rect:
         serializedVersion: 2
         x: 12
@@ -155,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af4506db4fdab7b4d98aa6ef83cdfa9d
-      internalID: -1418487985
+      spriteID: 63d4d21e7a145f8468a602ce79303d82
+      internalID: 2134309744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_1
+      name: noarmrobot_1
       rect:
         serializedVersion: 2
         x: 55
@@ -176,14 +176,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c98803ecd2a479e4f8a082663a277d2d
-      internalID: -124041607
+      spriteID: 89a366f524d59aa4489ad5b271d510f4
+      internalID: -2054248279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_2
+      name: noarmrobot_2
       rect:
         serializedVersion: 2
         x: 97
@@ -197,14 +197,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf232e3aed8ed2d44bc11a997ea55716
-      internalID: -1038138398
+      spriteID: 1eb19516659386f4299694dd9ffef09f
+      internalID: 314522864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_3
+      name: noarmrobot_3
       rect:
         serializedVersion: 2
         x: 149
@@ -218,14 +218,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 908757978e0db304f826cfb0f1362422
-      internalID: 2046282465
+      spriteID: 903f02aecff2a8b48b1eb97ab996ad5e
+      internalID: -37193230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_4
+      name: noarmrobot_4
       rect:
         serializedVersion: 2
         x: 209
@@ -239,14 +239,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a60e6cc8b2c7f3f4d88010e04beb14e9
-      internalID: -2054515476
+      spriteID: b4cab4fdf371cb8478e2b1f8554d42bd
+      internalID: 941455134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_5
+      name: noarmrobot_5
       rect:
         serializedVersion: 2
         x: 0
@@ -260,14 +260,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec2dd37384816d347bfec731a140c9c8
-      internalID: 1019162311
+      spriteID: c7cc4eed512422d44985512de5081146
+      internalID: 206096515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_6
+      name: noarmrobot_6
       rect:
         serializedVersion: 2
         x: 62
@@ -281,14 +281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55e6828e57db9ea479589f590b4bc0b2
-      internalID: -795202089
+      spriteID: 70fc4424407e9eb4abbd7a773beaaff3
+      internalID: -1032475546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_7
+      name: noarmrobot_7
       rect:
         serializedVersion: 2
         x: 105
@@ -302,14 +302,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e14697c07f39c4cb14308955a6069f
-      internalID: -1654308581
+      spriteID: b788e4a4bb4dd1b449b298cb3049b069
+      internalID: 483697443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_8
+      name: noarmrobot_8
       rect:
         serializedVersion: 2
         x: 148
@@ -323,14 +323,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 751bfc1f414d20c49af8183bdf0085c7
-      internalID: 128710639
+      spriteID: 3583f49f796e44d4baf0b7eba7675567
+      internalID: 2020573045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_9
+      name: noarmrobot_9
       rect:
         serializedVersion: 2
         x: 208
@@ -344,19 +344,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89ec46d0176a80c4f920e728fd1fb503
-      internalID: -175234819
+      spriteID: 1fa0afe4f0f07dd40a8f62995888b1f9
+      internalID: 993837863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_10
+      name: noarmrobot_10
       rect:
         serializedVersion: 2
         x: 255
         y: 920
-        width: 39
+        width: 37
         height: 80
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -365,14 +365,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6add804e43ab6804c9f388293532e87d
-      internalID: 204348133
+      spriteID: b715a6b138d08f04da1d3e9338a9c0ab
+      internalID: -110640850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_11
+      name: noarmrobot_11
       rect:
         serializedVersion: 2
         x: 302
@@ -386,14 +386,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b85815baf66aae47a993de908994e3c
-      internalID: -1237397688
+      spriteID: 26ac1890f138341418bc72f1e6604d67
+      internalID: -837347250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_12
+      name: noarmrobot_12
       rect:
         serializedVersion: 2
         x: 6
@@ -407,14 +407,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 404501042b626d747a20e6aed23286d7
-      internalID: 1335096568
+      spriteID: 4333ec42dd2ce8b42b7efbf14e7ffe76
+      internalID: -654240433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_13
+      name: noarmrobot_13
       rect:
         serializedVersion: 2
         x: 57
@@ -428,14 +428,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2143441fba76dfb48a5faed0e2a20522
-      internalID: -1751344241
+      spriteID: dec56d9dde17ff74683155b21608b057
+      internalID: -79792117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_14
+      name: noarmrobot_14
       rect:
         serializedVersion: 2
         x: 104
@@ -449,14 +449,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70dee8d5534668c4eba3e33b251e2f09
-      internalID: 610300890
+      spriteID: 29c3b01c5e23d41478405af03798b817
+      internalID: -1836508409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_15
+      name: noarmrobot_15
       rect:
         serializedVersion: 2
         x: 149
@@ -466,22 +466,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -18.5, y: -42.5}
-        - {x: -18.5, y: 42.5}
-        - {x: 18.5, y: 41.5}
-        - {x: 18.5, y: -42.5}
+      outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d261616311ba7e488d5e80d6928c205
-      internalID: -310827275
+      spriteID: d50a75224cfa4f3409681933376e92ad
+      internalID: -138488122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_16
+      name: noarmrobot_16
       rect:
         serializedVersion: 2
         x: 198
@@ -495,14 +491,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a02335d23d90934ba094e53af599f77
-      internalID: -330836681
+      spriteID: e9a1c69954060d245a41c34e91cb3e54
+      internalID: 1085888579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_17
+      name: noarmrobot_17
       rect:
         serializedVersion: 2
         x: 245
@@ -516,14 +512,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01d7b6c5226b0b446820c0fac022c77e
-      internalID: -266621360
+      spriteID: 3acd4477e9638414da885f5053f2a6b5
+      internalID: 2123535293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_18
+      name: noarmrobot_18
       rect:
         serializedVersion: 2
         x: 299
@@ -537,14 +533,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4349ff6dcd3a94745b0264ca14eae93f
-      internalID: -684522744
+      spriteID: f8253e1e60e62dd4a8b13607daee0f73
+      internalID: -1313086302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_19
+      name: noarmrobot_19
       rect:
         serializedVersion: 2
         x: 346
@@ -558,14 +554,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b05438cc6bcce8c40bd00d955c81ca13
-      internalID: 1251491860
+      spriteID: 8c1ad4be0e12c4140ae5a08540667384
+      internalID: -1032868116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_20
+      name: noarmrobot_20
       rect:
         serializedVersion: 2
         x: 3
@@ -579,14 +575,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bda0034772ea1344584f3dde7000589c
-      internalID: -479764802
+      spriteID: d179d4570d51f72469dd293b4d7c70f2
+      internalID: 635354995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_21
+      name: noarmrobot_21
       rect:
         serializedVersion: 2
         x: 60
@@ -600,14 +596,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74f9cbd435ade7242ae1376929d642c6
-      internalID: -965037552
+      spriteID: c58ed4fef83daa541bd7a925c12908c3
+      internalID: -1304728222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_22
+      name: noarmrobot_22
       rect:
         serializedVersion: 2
         x: 111
@@ -621,14 +617,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc250a487891efb4da5882fad35550fb
-      internalID: 1280878076
+      spriteID: 9b8389a056095bc43ab3845474486540
+      internalID: -1947222784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_23
+      name: noarmrobot_23
       rect:
         serializedVersion: 2
         x: 165
@@ -642,14 +638,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de663f37eca81e145b9c417fefca4262
-      internalID: -666488536
+      spriteID: 016ea47be053e9e418321e64ea3b49aa
+      internalID: -490839243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_24
+      name: noarmrobot_24
       rect:
         serializedVersion: 2
         x: 231
@@ -663,14 +659,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6caba2832e27e740b7a06e760a5e23e
-      internalID: -395313162
+      spriteID: 084e0b3faa0867a47bb2e7d891f74efb
+      internalID: -1915322360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_25
+      name: noarmrobot_25
       rect:
         serializedVersion: 2
         x: 314
@@ -684,14 +680,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2b7e5127fa703b4c9791052c6b0c79c
-      internalID: -695196709
+      spriteID: c7101ad4999e1d34f85e811886342147
+      internalID: 109794350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_26
+      name: noarmrobot_26
       rect:
         serializedVersion: 2
         x: 17
@@ -705,14 +701,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8420ae6e58f1b0f44a2dba883e7ad0f8
-      internalID: -955252246
+      spriteID: d178d5ff0cfa1d54da388460df2f02b1
+      internalID: -850210859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_27
+      name: noarmrobot_27
       rect:
         serializedVersion: 2
         x: 68
@@ -726,14 +722,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe28194ef887d5748a6a0e1d141e0cd1
-      internalID: -887162171
+      spriteID: 3ee4d9b6282b63f4299bdfefc1eeaeef
+      internalID: -1909454805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_28
+      name: noarmrobot_28
       rect:
         serializedVersion: 2
         x: 141
@@ -747,14 +743,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca3b7628c068dff489cad629097c48f0
-      internalID: -1782195240
+      spriteID: 2cbe5ba14224ff24ca96e8ce495c3474
+      internalID: -866195370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_29
+      name: noarmrobot_29
       rect:
         serializedVersion: 2
         x: 195
@@ -768,14 +764,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c60a56dc0700814c973b894c0cbc135
-      internalID: -1950324079
+      spriteID: c7aa918e90d563a4ebd71c5c85a0a2e5
+      internalID: 38839659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_30
+      name: noarmrobot_30
       rect:
         serializedVersion: 2
         x: 242
@@ -789,14 +785,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02d126ff320ff0a489ea0e50b6cab2c9
-      internalID: -1978739880
+      spriteID: 918ff72f27b92644693daec92f115f77
+      internalID: -350362933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_31
+      name: noarmrobot_31
       rect:
         serializedVersion: 2
         x: 292
@@ -810,14 +806,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 538f803643995204286a5a4a08afc108
-      internalID: 1337591143
+      spriteID: ddb8cd15018492842a2862d8597b2927
+      internalID: -268586146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_32
+      name: noarmrobot_32
       rect:
         serializedVersion: 2
         x: 12
@@ -831,14 +827,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54bbfc1c79dc77742b34e9c784ce3256
-      internalID: -1079211916
+      spriteID: 2a757d77b1b8ac048afc1528ac452ee1
+      internalID: -202641013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_33
+      name: noarmrobot_33
       rect:
         serializedVersion: 2
         x: 61
@@ -852,14 +848,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f9afb342033c5e489ac5bc1853cd2d4
-      internalID: -732921700
+      spriteID: ef371275933677147bb1f4552f17dc17
+      internalID: 394628070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_34
+      name: noarmrobot_34
       rect:
         serializedVersion: 2
         x: 128
@@ -873,14 +869,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4c682bcb52eddc40bb34991ae27713a
-      internalID: 2011738501
+      spriteID: 8d4a3f6b12b5fd349a9bc49669918e26
+      internalID: -1056392790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_35
+      name: noarmrobot_35
       rect:
         serializedVersion: 2
         x: 207
@@ -894,14 +890,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0af49e7af86ee4e4a9b9f33dbc35aa27
-      internalID: 1463134958
+      spriteID: 093b2d3c9b9be2048853da26501abac6
+      internalID: -1378354500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_36
+      name: noarmrobot_36
       rect:
         serializedVersion: 2
         x: 296
@@ -915,14 +911,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1578c99a125c0345b10961f80688e96
-      internalID: 852053676
+      spriteID: 8393a5c6726de3a458cf401f46a6847f
+      internalID: 2068623130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_37
+      name: noarmrobot_37
       rect:
         serializedVersion: 2
         x: 19
@@ -936,14 +932,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fa78bd299acccf40b7641190c45c216
-      internalID: 476522444
+      spriteID: c78ad58a905ee0d43aba7e25295f1511
+      internalID: -1195246680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_38
+      name: noarmrobot_38
       rect:
         serializedVersion: 2
         x: 66
@@ -957,14 +953,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1222f808dfd5fd42b8548a736b657d3
-      internalID: 702024839
+      spriteID: 7dc3519a9d619f344b6a112353d9adaa
+      internalID: 401587859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_39
+      name: noarmrobot_39
       rect:
         serializedVersion: 2
         x: 124
@@ -978,14 +974,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c892549358525ee46bc1b0b63583729a
-      internalID: -114679676
+      spriteID: 63e6576602146214fac44fff020c51b0
+      internalID: -591740107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_40
+      name: noarmrobot_40
       rect:
         serializedVersion: 2
         x: 167
@@ -999,14 +995,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad2d805521900cd4db60940bc9c4e9aa
-      internalID: -1436124027
+      spriteID: dc212a287d3dd95448e144b18bec02fa
+      internalID: 835437442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_41
+      name: noarmrobot_41
       rect:
         serializedVersion: 2
         x: 233
@@ -1020,14 +1016,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01442247f2f36cc438656fa9c817f226
-      internalID: -1056691780
+      spriteID: 6864782afe8e12a48a38a463a9e60587
+      internalID: -1303648293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_42
+      name: noarmrobot_42
       rect:
         serializedVersion: 2
         x: 301
@@ -1041,14 +1037,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c14dc8612c9946d4796e018d28c67a32
-      internalID: -112164529
+      spriteID: 978cb26440fcb5c45acef37ca6e27c05
+      internalID: -1831616766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_43
+      name: noarmrobot_43
       rect:
         serializedVersion: 2
         x: 12
@@ -1062,14 +1058,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9aefdc550d3bbc4e99538b2c88a3031
-      internalID: 1818924669
+      spriteID: 6e4d1fd54e70f084286c7306d54bcbf4
+      internalID: -1961955811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_44
+      name: noarmrobot_44
       rect:
         serializedVersion: 2
         x: 64
@@ -1083,14 +1079,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c164f875a681e794493f9af03e60f1b3
-      internalID: 604001777
+      spriteID: 62249b2687fb6fb47870cccbd48a636e
+      internalID: 1360649864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_45
+      name: noarmrobot_45
       rect:
         serializedVersion: 2
         x: 121
@@ -1104,14 +1100,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a18ed962565f6f34f9c2166aa1603019
-      internalID: -764068642
+      spriteID: 14c38271069660a4491e19e70ef42327
+      internalID: -1781757607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_46
+      name: noarmrobot_46
       rect:
         serializedVersion: 2
         x: 172
@@ -1125,14 +1121,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ebaed7444544c148af5f2882b58f72d
-      internalID: 769255851
+      spriteID: 980b48c7a122a444393f1f44951e37bd
+      internalID: 654296233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_47
+      name: noarmrobot_47
       rect:
         serializedVersion: 2
         x: 257
@@ -1146,14 +1142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96fb719ae2ca8154c9667165e69d0afc
-      internalID: -1032519255
+      spriteID: 9647cac7a160d3545ad7747c89a3e9d6
+      internalID: -147736586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_48
+      name: noarmrobot_48
       rect:
         serializedVersion: 2
         x: 313
@@ -1167,14 +1163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e3a583a2f3e90c40b50d5d5ce9ec3cb
-      internalID: 974531456
+      spriteID: 32117ee83cc32594b81dd44222998006
+      internalID: 2062605969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_49
+      name: noarmrobot_49
       rect:
         serializedVersion: 2
         x: 7
@@ -1188,14 +1184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdcfa9043b2b48444b8ed255e9a820d1
-      internalID: 1753409498
+      spriteID: 82cd578a392ec9044b1ddfebf9bad91c
+      internalID: 106613488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_50
+      name: noarmrobot_50
       rect:
         serializedVersion: 2
         x: 60
@@ -1209,14 +1205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e48aa913dc9245c4491b82ece5f55df4
-      internalID: -1786157519
+      spriteID: 41199d1a1b136c74ca39338f1303882d
+      internalID: -526670136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_51
+      name: noarmrobot_51
       rect:
         serializedVersion: 2
         x: 104
@@ -1230,14 +1226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eae00d812b0a9f540b6d62b29e9870d4
-      internalID: 139324349
+      spriteID: 0bf0bfc2dbf98234f936d414e30364f6
+      internalID: -1454744256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_52
+      name: noarmrobot_52
       rect:
         serializedVersion: 2
         x: 148
@@ -1251,14 +1247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eb166d823212444194366bc4bbe0886
-      internalID: 1719112686
+      spriteID: 3884ce0a46202944eb467b893cb43eee
+      internalID: -1761148474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_53
+      name: noarmrobot_53
       rect:
         serializedVersion: 2
         x: 192
@@ -1272,14 +1268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52e2012f403c3a14abb5e3a840b13385
-      internalID: 1169779675
+      spriteID: 0a1d2276a46925a4db0aa6f0c7b683bb
+      internalID: -818601041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_54
+      name: noarmrobot_54
       rect:
         serializedVersion: 2
         x: 240
@@ -1293,14 +1289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6ad66f6f0de6f34dad0dbff0967f08b
-      internalID: 1839786873
+      spriteID: 7c8a071edbb6d024cb865787c40ef107
+      internalID: -1831761818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_55
+      name: noarmrobot_55
       rect:
         serializedVersion: 2
         x: 291
@@ -1314,14 +1310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a6a6a7ddf3b566419e02f740d02d645
-      internalID: 690554581
+      spriteID: f62d5be7ae89e7b41870e7c17dc00b72
+      internalID: -77136269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_56
+      name: noarmrobot_56
       rect:
         serializedVersion: 2
         x: 342
@@ -1335,14 +1331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2a670311a712064d92eea306676f1ef
-      internalID: -1127993836
+      spriteID: 57da0ef6620e5884ab9deefa1003294d
+      internalID: 1346305692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_57
+      name: noarmrobot_57
       rect:
         serializedVersion: 2
         x: 390
@@ -1356,14 +1352,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 954e3cba818cc004696a6e114442a9ec
-      internalID: -1776268185
+      spriteID: 315cfdf1ab46b8141a45583501ed097b
+      internalID: -1116950344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_58
+      name: noarmrobot_58
       rect:
         serializedVersion: 2
         x: 4
@@ -1377,14 +1373,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cd3a70c11b2eee42bf126fe93aea1ef
-      internalID: 452560329
+      spriteID: 087a98da964c0144ea8770dbeeb896c0
+      internalID: -1212734255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_59
+      name: noarmrobot_59
       rect:
         serializedVersion: 2
         x: 55
@@ -1398,14 +1394,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed25a2f0dec49b54ea8dfb62bef5af82
-      internalID: -1747346202
+      spriteID: 162bb5c69f75b264bbcc3f9526c5cb5c
+      internalID: 1299001809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_60
+      name: noarmrobot_60
       rect:
         serializedVersion: 2
         x: 102
@@ -1419,14 +1415,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac2199dd7aab96a42aa9f8cbaf897ae6
-      internalID: 1086311901
+      spriteID: ca64afb9dadebd84284aba8b8aaf2a00
+      internalID: 1053214331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_61
+      name: noarmrobot_61
       rect:
         serializedVersion: 2
         x: 155
@@ -1440,20 +1436,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d888c714b5cc775469028f78d1265263
-      internalID: 943004721
+      spriteID: 3868d57662b147e438a9051ae43dce28
+      internalID: -760778248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_62
+      name: noarmrobot_62
       rect:
         serializedVersion: 2
         x: 213
-        y: 135
+        y: 131
         width: 56
-        height: 93
+        height: 97
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1461,14 +1457,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b63d94ab91705d48a98265f411919e7
-      internalID: 954047077
+      spriteID: 6489eb120455bdb4e843e98d2671b87d
+      internalID: -1128579078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_63
+      name: noarmrobot_63
       rect:
         serializedVersion: 2
         x: 274
@@ -1482,14 +1478,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4d762caa7ba8e844adbd8f65e800b2e
-      internalID: 1462027431
+      spriteID: d89b2127e56de98409a7259bc1c41315
+      internalID: 116394563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_64
+      name: noarmrobot_64
       rect:
         serializedVersion: 2
         x: 326
@@ -1503,14 +1499,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c748ae1f0f489ca4c894e64b5aa4f84a
-      internalID: -1549920091
+      spriteID: 0ee1dc8fa364e8842b0077744564e0ae
+      internalID: 1050917364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_65
+      name: noarmrobot_65
       rect:
         serializedVersion: 2
         x: 384
@@ -1524,14 +1520,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccd24b12d7051ea49ba362e3924afecd
-      internalID: -563171411
+      spriteID: a8d9029a3ea236946869bfa38e6c0e9c
+      internalID: 230511111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_66
+      name: noarmrobot_66
       rect:
         serializedVersion: 2
         x: 448
@@ -1545,14 +1541,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06086086644696643abe9ba991c26480
-      internalID: 641065968
+      spriteID: 239b1baac15f43a4494a2d96bc85df07
+      internalID: 2040713801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_67
+      name: noarmrobot_67
       rect:
         serializedVersion: 2
         x: 4
@@ -1566,14 +1562,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2d6a6c055eff1c4bbb7796d9134852d
-      internalID: -1939251368
+      spriteID: 54f77338942092146b6ac9ab6cece244
+      internalID: -1404860096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_68
+      name: noarmrobot_68
       rect:
         serializedVersion: 2
         x: 55
@@ -1587,14 +1583,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b893583f3e9af264c929e328d04c496f
-      internalID: -853231251
+      spriteID: 5d66573999c33874782759e63b87559b
+      internalID: -1159626800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_69
+      name: noarmrobot_69
       rect:
         serializedVersion: 2
         x: 99
@@ -1608,14 +1604,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37b23d3ec179eb44890b3c03c81ee686
-      internalID: 1394558695
+      spriteID: 59fc9cefc2765c24690ba92af2dc1895
+      internalID: -18731156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_70
+      name: noarmrobot_70
       rect:
         serializedVersion: 2
         x: 158
@@ -1629,14 +1625,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e27d76fa522ba0b41b4c53dd18b6b36a
-      internalID: -828372689
+      spriteID: 462394de9567142419e970bd29900e62
+      internalID: 1935571210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_71
+      name: noarmrobot_71
       rect:
         serializedVersion: 2
         x: 217
@@ -1650,14 +1646,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c308b8177df68f64bbf5cfe25c9ad799
-      internalID: 1145108497
+      spriteID: afc187b5643fd7b408ea5ce74a41014a
+      internalID: -1432019664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_72
+      name: noarmrobot_72
       rect:
         serializedVersion: 2
         x: 270
@@ -1671,14 +1667,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a314d65ec0f48294d9c619198803e7ae
-      internalID: 1416329271
+      spriteID: 7635612ad6a1da847b9e79bcb3d66f8c
+      internalID: -433555986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robotpng_73
+      name: noarmrobot_73
       rect:
         serializedVersion: 2
         x: 334
@@ -1692,8 +1688,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ac008f8bd27b5443be155a09b3b9413
-      internalID: 1283856781
+      spriteID: b12128901769ebe49befeea0a7e4d2da
+      internalID: 834392665
       vertices: []
       indices: 
       edges: []
@@ -1709,80 +1705,80 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      robotpng_0: -1418487985
-      robotpng_1: -124041607
-      robotpng_10: 204348133
-      robotpng_11: -1237397688
-      robotpng_12: 1335096568
-      robotpng_13: -1751344241
-      robotpng_14: 610300890
-      robotpng_15: -310827275
-      robotpng_16: -330836681
-      robotpng_17: -266621360
-      robotpng_18: -684522744
-      robotpng_19: 1251491860
-      robotpng_2: -1038138398
-      robotpng_20: -479764802
-      robotpng_21: -965037552
-      robotpng_22: 1280878076
-      robotpng_23: -666488536
-      robotpng_24: -395313162
-      robotpng_25: -695196709
-      robotpng_26: -955252246
-      robotpng_27: -887162171
-      robotpng_28: -1782195240
-      robotpng_29: -1950324079
-      robotpng_3: 2046282465
-      robotpng_30: -1978739880
-      robotpng_31: 1337591143
-      robotpng_32: -1079211916
-      robotpng_33: -732921700
-      robotpng_34: 2011738501
-      robotpng_35: 1463134958
-      robotpng_36: 852053676
-      robotpng_37: 476522444
-      robotpng_38: 702024839
-      robotpng_39: -114679676
-      robotpng_4: -2054515476
-      robotpng_40: -1436124027
-      robotpng_41: -1056691780
-      robotpng_42: -112164529
-      robotpng_43: 1818924669
-      robotpng_44: 604001777
-      robotpng_45: -764068642
-      robotpng_46: 769255851
-      robotpng_47: -1032519255
-      robotpng_48: 974531456
-      robotpng_49: 1753409498
-      robotpng_5: 1019162311
-      robotpng_50: -1786157519
-      robotpng_51: 139324349
-      robotpng_52: 1719112686
-      robotpng_53: 1169779675
-      robotpng_54: 1839786873
-      robotpng_55: 690554581
-      robotpng_56: -1127993836
-      robotpng_57: -1776268185
-      robotpng_58: 452560329
-      robotpng_59: -1747346202
-      robotpng_6: -795202089
-      robotpng_60: 1086311901
-      robotpng_61: 943004721
-      robotpng_62: 954047077
-      robotpng_63: 1462027431
-      robotpng_64: -1549920091
-      robotpng_65: -563171411
-      robotpng_66: 641065968
-      robotpng_67: -1939251368
-      robotpng_68: -853231251
-      robotpng_69: 1394558695
-      robotpng_7: -1654308581
-      robotpng_70: -828372689
-      robotpng_71: 1145108497
-      robotpng_72: 1416329271
-      robotpng_73: 1283856781
-      robotpng_8: 128710639
-      robotpng_9: -175234819
+      noarmrobot_0: 2134309744
+      noarmrobot_1: -2054248279
+      noarmrobot_10: -110640850
+      noarmrobot_11: -837347250
+      noarmrobot_12: -654240433
+      noarmrobot_13: -79792117
+      noarmrobot_14: -1836508409
+      noarmrobot_15: -138488122
+      noarmrobot_16: 1085888579
+      noarmrobot_17: 2123535293
+      noarmrobot_18: -1313086302
+      noarmrobot_19: -1032868116
+      noarmrobot_2: 314522864
+      noarmrobot_20: 635354995
+      noarmrobot_21: -1304728222
+      noarmrobot_22: -1947222784
+      noarmrobot_23: -490839243
+      noarmrobot_24: -1915322360
+      noarmrobot_25: 109794350
+      noarmrobot_26: -850210859
+      noarmrobot_27: -1909454805
+      noarmrobot_28: -866195370
+      noarmrobot_29: 38839659
+      noarmrobot_3: -37193230
+      noarmrobot_30: -350362933
+      noarmrobot_31: -268586146
+      noarmrobot_32: -202641013
+      noarmrobot_33: 394628070
+      noarmrobot_34: -1056392790
+      noarmrobot_35: -1378354500
+      noarmrobot_36: 2068623130
+      noarmrobot_37: -1195246680
+      noarmrobot_38: 401587859
+      noarmrobot_39: -591740107
+      noarmrobot_4: 941455134
+      noarmrobot_40: 835437442
+      noarmrobot_41: -1303648293
+      noarmrobot_42: -1831616766
+      noarmrobot_43: -1961955811
+      noarmrobot_44: 1360649864
+      noarmrobot_45: -1781757607
+      noarmrobot_46: 654296233
+      noarmrobot_47: -147736586
+      noarmrobot_48: 2062605969
+      noarmrobot_49: 106613488
+      noarmrobot_5: 206096515
+      noarmrobot_50: -526670136
+      noarmrobot_51: -1454744256
+      noarmrobot_52: -1761148474
+      noarmrobot_53: -818601041
+      noarmrobot_54: -1831761818
+      noarmrobot_55: -77136269
+      noarmrobot_56: 1346305692
+      noarmrobot_57: -1116950344
+      noarmrobot_58: -1212734255
+      noarmrobot_59: 1299001809
+      noarmrobot_6: -1032475546
+      noarmrobot_60: 1053214331
+      noarmrobot_61: -760778248
+      noarmrobot_62: -1128579078
+      noarmrobot_63: 116394563
+      noarmrobot_64: 1050917364
+      noarmrobot_65: 230511111
+      noarmrobot_66: 2040713801
+      noarmrobot_67: -1404860096
+      noarmrobot_68: -1159626800
+      noarmrobot_69: -18731156
+      noarmrobot_7: 483697443
+      noarmrobot_70: 1935571210
+      noarmrobot_71: -1432019664
+      noarmrobot_72: -433555986
+      noarmrobot_73: 834392665
+      noarmrobot_8: 2020573045
+      noarmrobot_9: 993837863
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

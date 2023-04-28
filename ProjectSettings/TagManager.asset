@@ -20,7 +20,7 @@ TagManager:
   - Hazards
   - Bullet
   - Interactables
-  - 
+  - Arm
   - 
   - 
   - 
@@ -63,6 +63,12 @@ TagManager:
   - name: Interactables
     uniqueID: 3868003997
     locked: 0
+  - name: Arm
+    uniqueID: 4097164861
+    locked: 0
   - name: Player
     uniqueID: 168761617
+    locked: 0
+  - name: Hook
+    uniqueID: 1033734199
     locked: 0
