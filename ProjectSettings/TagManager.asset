@@ -21,8 +21,8 @@ TagManager:
   - Bullet
   - Interactables
   - Arm
-  - 
-  - 
+  - Grapple
+  - Camera
   - 
   - 
   - 
@@ -39,8 +39,8 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
+  - name: Camera
+    uniqueID: 2426311405
     locked: 0
   - name: Background
     uniqueID: 3881937743
@@ -71,4 +71,10 @@ TagManager:
     locked: 0
   - name: Hook
     uniqueID: 1033734199
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Grapple
+    uniqueID: 662144989
     locked: 0

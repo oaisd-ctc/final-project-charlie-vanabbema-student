@@ -7,21 +7,21 @@ public class FireGrapple : MonoBehaviour
 {
     public float firespeed = 10f;
 
-    // void Update()
-    // {
-    //     if(Input.GetMouseButtonDown(0))
-    //     {
-    //         transform.Translate(Vector2.right * firespeed * Time.deltaTime, Space.Self);
-    //     }
-    // }
-
-    void OnFire(InputValue value)
+    void Update()
     {
-        transform.Translate(Vector2.right * firespeed * Time.deltaTime, Space.Self);
+        if(Input.GetMouseButtonDown(0))
+        {
+            transform.Translate(Vector2.right * firespeed * Time.deltaTime, Space.Self);
+        }
     }
 
-    // void OnCollisionEnter2D(Collision2D other) 
-    //     {
-    //         Destroy(gameObject, 0.5f);
-    //     }
+//     void fireGrapple(InputValue value)
+//     {
+//         transform.Translate(Vector2.right * firespeed * Time.deltaTime, Space.Self);
+//     }
+
+//     // void OnCollisionEnter2D(Collision2D other) 
+//     //     {
+//     //         Destroy(gameObject, 0.5f);
+//     //     }
 }

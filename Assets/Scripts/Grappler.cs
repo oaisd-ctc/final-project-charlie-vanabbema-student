@@ -7,7 +7,7 @@ public class Grappler : MonoBehaviour
 {
     // public GameObject hook;
     // public Transform start;
-    // public float firespeed = 10f;
+    public float firespeed = 10f;
 
 
     // private Camera mainCam;
@@ -36,13 +36,16 @@ public class Grappler : MonoBehaviour
         // }
 
     // void Hooking()
-    //     {
+        // {
             // GameObject grapple = Instantiate(hook, start.transform.position, start.transform.rotation);
+            // hook.start.transform;
             // Destroy(hook, 0.5f);
-    //     }
+            // transform.Translate(Vector2.right * firespeed * Time.deltaTime, Space.Self);
+
+        // }
 
         // mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
-
+ 
         // Vector3 rotation = mousePos - transform.position;
 
         // float rotz = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
