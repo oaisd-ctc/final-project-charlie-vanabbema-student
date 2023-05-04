@@ -36,9 +36,12 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         if(!isAlive) {return;}
+        if(myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground","Ladder")))
+        {
         Run();
         // FlipSprite();
         ClimbLadder();
+        }
         Die();
     }
 
@@ -51,15 +54,17 @@ public class PlayerMovement : MonoBehaviour
 
     void OnJump(InputValue value)
     {
-        if(!isAlive) {return;}
         if(myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground","Ladder")))
         {
+        if(!isAlive) {return;}
+        
             if(value.isPressed)
             {
                 //do stuff
                 myRigidbody.velocity += new Vector2 (0f, jumpSpeed);
             }
         }
+        
 
 
     }

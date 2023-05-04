@@ -4,6 +4,7 @@ public class GrappleRope : MonoBehaviour
 {
     [Header("General refrences:")]
     public GrapplingGun grapplingGun;
+    public PlayerMovement playerMovement;
     [SerializeField] LineRenderer m_lineRenderer;
 
     [Header("General Settings:")]
@@ -21,7 +22,7 @@ public class GrappleRope : MonoBehaviour
 
     float moveTime = 0;
 
-    [SerializeField]public bool isGrappling = false;
+    public bool isGrappling = false;
     
     bool drawLine = true;
     bool straightLine = true;
@@ -43,12 +44,14 @@ public class GrappleRope : MonoBehaviour
         waveSize = WaveSize;
         straightLine = false;
         LinePointToFirePoint();
+        // playerMovement.enabled = true;
     }
 
     private void OnDisable()
     {
         m_lineRenderer.enabled = false;
         isGrappling = false;
+        // playerMovement.enabled = false;
     }
 
     void LinePointToFirePoint()

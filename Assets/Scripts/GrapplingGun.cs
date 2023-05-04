@@ -4,11 +4,15 @@ public class GrapplingGun : MonoBehaviour
 {
     [Header("Scripts Ref:")]
     public GrappleRope grappleRope;
+    
+ 
 
     [Header("Layers Settings:")]
     [SerializeField] private bool grappleToAll = false;
     [SerializeField] private int grappableLayerNumber = 9;
-    // public int IgnoreRaycastLayer;
+
+    // [SerializeField] private int layer = 8;
+    // private int layerAsLayerMask;
 
     [Header("Main Camera:")]
     public Camera m_camera;
@@ -53,6 +57,8 @@ public class GrapplingGun : MonoBehaviour
     {
         grappleRope.enabled = false;
         m_springJoint2D.enabled = false;
+        // layerAsLayerMask = (1 << layer);
+        // int layerMask = ~layerAsLayerMask;
 
     }
 
@@ -88,7 +94,7 @@ public class GrapplingGun : MonoBehaviour
         {
             grappleRope.enabled = false;
             m_springJoint2D.enabled = false;
-            m_rigidbody.gravityScale = 1;
+            m_rigidbody.gravityScale = 1.75f;
         }
         else
         {
@@ -133,8 +139,8 @@ public class GrapplingGun : MonoBehaviour
         int layerMask = 1 << layer;
         // LayerMask IgnoreMe = layerMask;
         Vector2 distanceVector = m_camera.ScreenToWorldPoint(Input.mousePosition) - gunPivot.position;
-        if (Physics2D.Raycast(firePoint.position, distanceVector.normalized, layerMask))
-        {
+        // if (Physics2D.Raycast(firePoint.position, distanceVector.normalized))
+        // {
             RaycastHit2D _hit = Physics2D.Raycast(firePoint.position, distanceVector.normalized, layerMask);
             if (_hit.transform.gameObject.layer == grappableLayerNumber || grappleToAll)
             {
@@ -145,7 +151,7 @@ public class GrapplingGun : MonoBehaviour
                     grappleRope.enabled = true;
                 }
             }
-        }
+        // }
     }
 
     public void Grapple()
