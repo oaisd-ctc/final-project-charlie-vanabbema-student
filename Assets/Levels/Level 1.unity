@@ -3929,6 +3929,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1204662532 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1366908329, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+  m_PrefabInstance: {fileID: 2487030424699434498}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1255845876
 GameObject:
   m_ObjectHideFlags: 0
@@ -4279,6 +4284,34 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &1470580432 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 83489290, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+  m_PrefabInstance: {fileID: 2487030424699434498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1470580434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470580432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1405a7c7293b5334ba2c2be37d259ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1560676622 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+  m_PrefabInstance: {fileID: 2487030424699434498}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d96de089050314b9452e56e5f07240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1822078893 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 594085116, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
@@ -11314,7 +11347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 457395102, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
       propertyPath: launchToPoint
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 457395102, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
       propertyPath: rotationSpeed
@@ -11326,15 +11359,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 457395102, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
       propertyPath: rotateOverTime
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 457395102, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
       propertyPath: targetDistance
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 457395102, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
       propertyPath: targetFrequncy
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 457395102, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
       propertyPath: IgnoreMe.m_Bits
@@ -11380,6 +11413,166 @@ PrefabInstance:
       propertyPath: playerMovement
       value: 
       objectReference: {fileID: 2134154617}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedMultiplayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[1].time
+      value: 0.18592858
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[2].time
+      value: 0.42961687
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[3].time
+      value: 0.6285881
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[4].time
+      value: 0.7615012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[1].value
+      value: 0.19626793
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[2].value
+      value: -0.22376359
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[3].value
+      value: 0.122292295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[4].value
+      value: -0.06731965
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[3].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[0].inSlope
+      value: 1.0556092
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[1].inSlope
+      value: -0.33401668
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[2].inSlope
+      value: 0.007791579
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[3].inSlope
+      value: 0.15632004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[4].inSlope
+      value: -0.5721608
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[5].inSlope
+      value: 0.28226408
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[2].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[3].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[0].outSlope
+      value: 1.0556092
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[1].outSlope
+      value: -0.33401668
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[2].outSlope
+      value: 0.007791579
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[3].outSlope
+      value: 0.15632004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[4].outSlope
+      value: -0.5721608
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeAnimationCurve.m_Curve.Array.data[5].outSlope
+      value: 0.28226408
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[0].inSlope
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[2].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[0].outSlope
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[1].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[2].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[2].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[1].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[2].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[0].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060781686, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: ropeLaunchSpeedCurve.m_Curve.Array.data[1].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2134154621, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
       propertyPath: m_Material
       value: 
@@ -11401,17 +11594,37 @@ PrefabInstance:
       value: 10.386001
       objectReference: {fileID: 0}
     - target: {fileID: 2040591353534444446, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1204662532}
+    - target: {fileID: 2040591353534444446, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 6634203318801259780, guid: 2053c4fb97dd79c42ba41e7114c858a2, type: 3}
+    - target: {fileID: 2040591353534444446, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: flySpeed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040591353534444446, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
       propertyPath: runSpeed
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2040591353534444446, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
       propertyPath: jumpSpeed
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2040591353534444446, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2040591353534444446, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: climbSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040591353534444446, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
+      propertyPath: grappleRope
+      value: 
+      objectReference: {fileID: 1560676622}
     - target: {fileID: 2487030425310692105, guid: 7e355765d942c2c498e91b42a6fbb99c, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -11531,7 +11744,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4279796132256914913, guid: 1baa62c7c3759ff4bb993b9ce9a5d31b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.289895
+      value: 0.34630585
       objectReference: {fileID: 0}
     - target: {fileID: 4279796132256914913, guid: 1baa62c7c3759ff4bb993b9ce9a5d31b, type: 3}
       propertyPath: m_LocalPosition.y

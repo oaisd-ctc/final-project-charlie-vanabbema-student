@@ -1470,11 +1470,23 @@ TextureImporter:
         x: 274
         y: 139
         width: 42
-        height: 110
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -21, y: -55}
+        - {x: -21, y: 29}
+        - {x: -3, y: 38.5}
+        - {x: 7, y: 36.5}
+        - {x: 8, y: 27.5}
+        - {x: 8, y: 20}
+        - {x: 9, y: 16.5}
+        - {x: 10, y: 10.5}
+        - {x: 8, y: 5.5}
+        - {x: 10, y: 0}
+        - {x: 21, y: -4}
+        - {x: 21, y: -55}
       physicsShape: []
       tessellationDetail: 0
       bones: []

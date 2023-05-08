@@ -64,6 +64,7 @@ public class GrapplingGun : MonoBehaviour
 
     private void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             SetGrapplePoint();
@@ -107,6 +108,28 @@ public class GrapplingGun : MonoBehaviour
     {
         Vector3 distanceVector = lookPoint - gunPivot.position;
 
+        float angle = Mathf.Atan2(distanceVector.y, distanceVector.x) * Mathf.Rad2Deg;
+        // if(lookPoint.x < gunPivot.position.x)
+        // {
+        //     angle *= -1;
+        // }
+        // if (rotateOverTime && allowRotationOverTime)
+        
+        // {
+        //     gunPivot.rotation = Quaternion.Lerp(gunPivot.rotation, Quaternion.AngleAxis(angle, Vector3.forward), Time.deltaTime * rotationSpeed);
+        // }
+        // else
+        // {
+            
+
+                gunPivot.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+        // }
+        // if(lookPoint.x < gunPivot.position.x)
+        // {
+        //     gunPivot.rotation *= -1;
+        // }
+
         // Vector3 mousePos = Input.mousePosition;
         // Vector3 armPos = Camera.main.WorldToScreenPoint(transform.position);
         // mousePos.x = mousePos.x - armPos.x;
@@ -120,16 +143,7 @@ public class GrapplingGun : MonoBehaviour
         // {
         //     gunPivot.rotation = Quaternion.Euler(new Vector3(0f, 0f, armAngle));
         // }
-
-        float angle = Mathf.Atan2(distanceVector.y, distanceVector.x) * Mathf.Rad2Deg;
-        if (rotateOverTime && allowRotationOverTime)
-        {
-            gunPivot.rotation = Quaternion.Lerp(gunPivot.rotation, Quaternion.AngleAxis(angle, Vector3.forward), Time.deltaTime * rotationSpeed);
-        }
-        else
-        {
-            gunPivot.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-        }
+        
 
     }
 

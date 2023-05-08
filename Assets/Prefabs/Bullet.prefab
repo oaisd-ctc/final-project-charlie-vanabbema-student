@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8366376028466610385}
   - component: {fileID: -6354329333007035824}
   - component: {fileID: 3141374650965480607}
-  - component: {fileID: 7543319970428396056}
+  - component: {fileID: 8918211712095199114}
   m_Layer: 12
   m_Name: Bullet
   m_TagString: Untagged
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 168761617
-  m_SortingLayer: 8
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1437902656, guid: 78c709fe49566ce45aef5a3ace50d122, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -124,7 +124,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.008264004, y: 0.00086846936}
   m_Size: {x: 0.6169607, y: 0.18142508}
   m_Direction: 1
---- !u!114 &7543319970428396056
+--- !u!114 &8918211712095199114
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,4 +136,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f079c5776100b664e8c05f26326152c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 20
+  bulletSpeed: 15
