@@ -48,9 +48,6 @@ TagManager:
   - name: Water
     uniqueID: 2060023343
     locked: 0
-  - name: Hazards
-    uniqueID: 3256309483
-    locked: 0
   - name: Platforms
     uniqueID: 4075084201
     locked: 0
@@ -77,4 +74,7 @@ TagManager:
     locked: 0
   - name: Grapple
     uniqueID: 662144989
+    locked: 0
+  - name: Hazards
+    uniqueID: 3256309483
     locked: 0
