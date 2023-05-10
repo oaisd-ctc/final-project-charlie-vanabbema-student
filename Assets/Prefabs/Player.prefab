@@ -182,13 +182,13 @@ MonoBehaviour:
   rotateOverTime: 0
   rotationSpeed: 30
   hasMaxDistance: 1
-  maxDistnace: 10
+  maxDistnace: 8
   launchToPoint: 0
   launchType: 1
   launchSpeed: 0.5
-  autoConfigureDistance: 1
-  targetDistance: 3
-  targetFrequncy: 0.8
+  autoConfigureDistance: 0
+  targetDistance: 2
+  targetFrequncy: 0.7
   grapplePoint: {x: 0, y: 0}
   grappleDistanceVector: {x: 0, y: 0}
 --- !u!1 &594085115
@@ -404,7 +404,7 @@ LineRenderer:
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.1
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -422,7 +422,7 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0, g: 0, b: 0, a: 1}
+      key0: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 1}
       key1: {r: 0, g: 0, b: 0, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -808,9 +808,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 3
-  jumpSpeed: 3
+  jumpSpeed: 7
   climbSpeed: 10
-  flySpeed: 0.05
+  flySpeed: 0.025
   deathKick: {x: 20, y: 20}
   bullet: {fileID: 6634203318801259780, guid: 2053c4fb97dd79c42ba41e7114c858a2, type: 3}
   gun: {fileID: 1366908329}
@@ -846,6 +846,6 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0.32}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 7.1626315
+  m_Distance: 26.744814
   m_DampingRatio: 1
   m_Frequency: 1
