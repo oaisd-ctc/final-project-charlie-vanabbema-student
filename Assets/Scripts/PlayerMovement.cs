@@ -13,6 +13,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Vector2 deathKick = new Vector2 (20f, 20f);
     [SerializeField] GameObject bullet;
     [SerializeField] Transform gun;
+    [SerializeField] AudioClip jumpSFX;
+
+    
     Vector2 moveInput;
     Rigidbody2D myRigidbody;
     Animator myAnimator;
@@ -54,8 +57,11 @@ public class PlayerMovement : MonoBehaviour
 
         if(grappleRope.isGrappling)
         {
+            
             myAnimator.SetBool("isGrappling", true);
+
         }
+        
         // else
         // {
         //     myAnimator.SetBool("isGrappling", false);
@@ -83,6 +89,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 //do stuff
                 myRigidbody.velocity += new Vector2 (0f, jumpSpeed);
+                AudioSource.PlayClipAtPoint(jumpSFX, Camera.main.transform.position);
             }
         }
         
@@ -143,6 +150,13 @@ public class PlayerMovement : MonoBehaviour
         myAnimator.SetBool("isClimbing", playerHasVerticalSpeed);
     }
 
+    void OnTriggerEnter2D(Collider2D other) 
+    {
+        if(other.tag == "Enemy")
+        {
+            Die();
+        }
+    }
     void Die()
     {
         if(myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy", "Hazards")))

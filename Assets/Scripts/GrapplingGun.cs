@@ -44,6 +44,7 @@ public class GrapplingGun : MonoBehaviour
     [SerializeField] private bool launchToPoint = true;
     [SerializeField] private LaunchType launchType = LaunchType.Physics_Launch;
     [SerializeField] private float launchSpeed = 1;
+    [SerializeField] AudioClip grappleSFX;
 
     [Header("No Launch To Point")]
     [SerializeField] private bool autoConfigureDistance = false;
@@ -68,6 +69,11 @@ public class GrapplingGun : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             SetGrapplePoint();
+            // if(Input.GetKey(KeyCode.Mouse0) && grappleRope.isGrappling)
+            // {
+                AudioSource.PlayClipAtPoint(grappleSFX, Camera.main.transform.position);
+            // }
+            
         }
         else if (Input.GetKey(KeyCode.Mouse0))
         {
